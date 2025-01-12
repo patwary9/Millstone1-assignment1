@@ -366,7 +366,6 @@ margin: 16px 24px 4px 24px;
  .donate{ 
     margin: 30px 248px 32px 248px;
     /* gap: 24px; */
-    
 } 
 
 .donate-title{
@@ -378,7 +377,7 @@ margin: 16px 24px 4px 24px;
 .donate-title-description{
     font-size: 18px;
     text-align: center;
-   margin: 24px 50%;
+   /* margin: 24px 50%; */
   color: rgba(14, 14, 14, 0.7);
 
 }
@@ -386,6 +385,7 @@ margin: 16px 24px 4px 24px;
     margin: 32px 104px 32px 104px;
     justify-content: space-around;
    display: flex;
+   gap: 24px;
 }
 .money-button1{
     padding: 30px;
@@ -394,8 +394,12 @@ margin: 16px 24px 4px 24px;
     border-radius:16px ; 
     border: none; 
     box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.15); 
-    margin: 32px 14px 32px 14px;
+    /* margin: 32px 14px 32px 14px; */
     cursor: pointer;
+    text-align: center;
+    width: 290px;
+    height: 140px;
+    /* gap: 24px; */
     
 }
 .money-button1:hover{
@@ -408,9 +412,11 @@ margin: 16px 24px 4px 24px;
     border-radius:16px ; 
     border: none; 
     box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.15);
-    margin: 32px 14px;
+    /* margin: 32px 14px; */
     background-color: aquamarine;
     cursor: pointer;
+    width: 290px;
+    height: 140px;
 }
 .money-button2:hover{
     background-color:green;
@@ -423,8 +429,10 @@ margin: 16px 24px 4px 24px;
     border-radius:16px ; 
     border: none; 
     box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.15);
-    margin: 32px 14px;
+    /* margin: 32px 14px; */
     cursor: pointer;
+    width: 290px;
+    height: 140px;
     
 }
 .money-button3:hover{
@@ -437,8 +445,10 @@ margin: 16px 24px 4px 24px;
     border-radius:16px ; 
     border: none; 
     box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.15);
-    margin:  32px 14px 32px 14px;
+    /* margin:  32px 14px 32px 14px; */
     cursor: pointer;
+    width: 290px;
+    height: 140px;
     
 }
 .money-button4:hover{
@@ -473,4 +483,98 @@ margin: 16px 24px 4px 24px;
  }
  .donate-button:hover{
     background-color: black;
+ }
+
+ /* subscribe style */
+ .subscribe{
+    margin: 30px 155px 80px 155px;
+    box-shadow: 0px 4px 8px rgb(199, 188, 188);
+    background-color: rgba(198, 228, 214, 1);
+    padding: 100px 80px;
+    height: 325px;
+    border-radius: 24px;
+    /* text-align: center; */
+    
+ }
+ .subscribe-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+ }
+ .subscribe-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    width: 622px;
+    height: 48px;
+    text-align: center;
+    margin-left: 224px;
+ }
+
+ .subscribe-details{
+    align-items: center;
+    justify-content: center;
+ }
+ .subscribe-button{
+    font-size: 18px;
+    padding: 15px 34px;
+    color: #FFFFFF;
+    background-color: green;
+    /* height: 56px; */
+    width: 150px;
+    text-align: center;
+    border: none;
+    border-radius:0px 16px 16px 0px ;
+    cursor: pointer;
+ }
+.subscribe-button:hover{
+    background-color: black;
+}
+ .subscribe-button-input{
+    display: flex;
+ }
+
+ .input-email{
+    width: 500px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 16px 0px 0px 16px;
+ }
+ .subscribe-button-input{
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    margin-left: 170px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+ }
+ .subsribe-under-title{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+ }
+
+ /* footer style */
+ .footer-bd{
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(216, 215, 215);
+    padding: 70px 150px;
+    /* margin: 80px 360px 0px 360px; */
+ }
+
+ .bd-title{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+
+ }
+ hr{
+    width: 1120px;
+    height: 0px;
+ }
+ .social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
  }
